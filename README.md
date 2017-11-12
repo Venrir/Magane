@@ -29,5 +29,7 @@ If you are using mydiscord, make sure to add the following script to the plugins
 ```
 https://raw.githubusercontent.com/Pitu/Magane/master/dist/stickers.min.js
 ```
+If you are using BetterDiscord, make sure to add the following script to your plugins folder:
+[script url](http://venipa.net/uploads/2017-11-12/6Y7VbESziChssX.js)
 
 > Injecting random code into your Discord client could be harmful, that's why I provide the full source code so you can check out exactly what the script does. This plugin makes use of your personal token to make a request to the Discord api each time you click a sticker and never leaves nor does it do anything else with it. The script found in `/dist` is generated, webpacked and babeled from the source by running `npm run webpack`.
